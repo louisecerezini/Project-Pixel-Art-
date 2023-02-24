@@ -1,0 +1,204 @@
+{
+  "requirements": [
+    {
+      "bonus": false,
+      "description": "1 - Adicione à página o título \"Paleta de Cores\"",
+      "enabled": true,
+      "identifier": null,
+      "order": 1,
+      "skill_ids": [
+        "4bc2e43b-ac17-4f00-84cb-2c0776e446c9",
+        "45b8aa19-7458-439d-ac2e-12c7438b7c5a"
+      ]
+    },
+    {
+      "bonus": false,
+      "description": "2 - Adicione à página uma paleta contendo quatro cores distintas",
+      "enabled": true,
+      "identifier": null,
+      "order": 2,
+      "skill_ids": [
+        "76d994c3-5c9f-4ae9-a0d2-0f6e2a6bd9b2",
+        "ae43092c-fdcb-43ea-83f9-57f1118e6d23",
+        "45b8aa19-7458-439d-ac2e-12c7438b7c5a",
+        "1fda945a-b901-42dd-8697-ba74e12cbec0",
+        "c0c3f531-17db-4fb1-9d09-50f2e0c3a80c",
+        "34072452-1a74-4dd2-b4b3-23e7e322b0cc",
+        "bbdc7e7d-2e7b-41d7-ac8c-b3c572629468"
+      ]
+    },
+    {
+      "bonus": false,
+      "description": "3 - Adicione a cor **preta** como a primeira cor da paleta de cores",
+      "enabled": true,
+      "identifier": null,
+      "order": 3,
+      "skill_ids": [
+        "45b8aa19-7458-439d-ac2e-12c7438b7c5a",
+        "0529f8a0-d2f1-451e-b620-6ad83d1f848f",
+        "34072452-1a74-4dd2-b4b3-23e7e322b0cc"
+      ]
+    },
+    {
+      "bonus": false,
+      "description": "4 - Adicione um botão para gerar cores aleatórias para a paleta de cores",
+      "enabled": true,
+      "identifier": null,
+      "order": 4,
+      "skill_ids": [
+        "af62fce8-1899-44fc-bfc0-ab88b7c1f459"
+      ]
+    },
+    {
+      "bonus": false,
+      "description": "5 - Implemente uma função usando localStorage para que a paleta de cores gerada aleatoriamente seja mantida após recarregar a página",
+      "enabled": true,
+      "identifier": null,
+      "order": 5,
+      "skill_ids": [
+        "7ff2c260-89c2-4802-9797-ec1b0645d93e",
+        "c9c59370-1e4b-4b1b-8a8d-20da7b7a046a"
+      ]
+    },
+    {
+      "bonus": false,
+      "description": "6 - Adicione à página um quadro contendo 25 pixels",
+      "enabled": true,
+      "identifier": null,
+      "order": 6,
+      "skill_ids": [
+        "45b8aa19-7458-439d-ac2e-12c7438b7c5a",
+        "0529f8a0-d2f1-451e-b620-6ad83d1f848f",
+        "34072452-1a74-4dd2-b4b3-23e7e322b0cc",
+        "8e25bd7e-0258-4d82-86cc-5c79331feea5"
+      ]
+    },
+    {
+      "bonus": false,
+      "description": "7 - Faça com que cada elemento do quadro de pixels possua 40 pixels de largura, 40 pixels de altura e seja delimitado por uma borda preta de 1 pixel",
+      "enabled": true,
+      "identifier": null,
+      "order": 7,
+      "skill_ids": [
+        "45b8aa19-7458-439d-ac2e-12c7438b7c5a",
+        "0529f8a0-d2f1-451e-b620-6ad83d1f848f",
+        "bbdc7e7d-2e7b-41d7-ac8c-b3c572629468",
+        "8e25bd7e-0258-4d82-86cc-5c79331feea5"
+      ]
+    },
+    {
+      "bonus": false,
+      "description": "8 - Defina a cor preta como cor inicial da paleta de cores. Ao carregar a página a cor preta já deve estar selecionada para pintar os pixels",
+      "enabled": true,
+      "identifier": null,
+      "order": 8,
+      "skill_ids": [
+        "45b8aa19-7458-439d-ac2e-12c7438b7c5a",
+        "0529f8a0-d2f1-451e-b620-6ad83d1f848f",
+        "34072452-1a74-4dd2-b4b3-23e7e322b0cc"
+      ]
+    },
+    {
+      "bonus": false,
+      "description": "9 - Crie uma função para selecionar uma cor na paleta de cores e preencher os pixels no quadro",
+      "enabled": true,
+      "identifier": null,
+      "order": 9,
+      "skill_ids": [
+        "76d994c3-5c9f-4ae9-a0d2-0f6e2a6bd9b2",
+        "ae43092c-fdcb-43ea-83f9-57f1118e6d23",
+        "45b8aa19-7458-439d-ac2e-12c7438b7c5a",
+        "0529f8a0-d2f1-451e-b620-6ad83d1f848f",
+        "af62fce8-1899-44fc-bfc0-ab88b7c1f459",
+        "c0c3f531-17db-4fb1-9d09-50f2e0c3a80c"
+      ]
+    },
+    {
+      "bonus": false,
+      "description": "10 - Crie uma função que permita preencher um pixel do quadro com a cor selecionada na paleta de cores",
+      "enabled": true,
+      "identifier": null,
+      "order": 10,
+      "skill_ids": [
+        "76d994c3-5c9f-4ae9-a0d2-0f6e2a6bd9b2",
+        "ae43092c-fdcb-43ea-83f9-57f1118e6d23",
+        "45b8aa19-7458-439d-ac2e-12c7438b7c5a",
+        "1fb4e5cd-fab5-46e6-b4d6-19576551bc78",
+        "0529f8a0-d2f1-451e-b620-6ad83d1f848f",
+        "af62fce8-1899-44fc-bfc0-ab88b7c1f459",
+        "c0c3f531-17db-4fb1-9d09-50f2e0c3a80c"
+      ]
+    },
+    {
+      "bonus": false,
+      "description": "11 - Crie um botão que, ao ser clicado, limpa o quadro preenchendo a cor de todos seus pixels com branco",
+      "enabled": true,
+      "identifier": null,
+      "order": 11,
+      "skill_ids": [
+        "76d994c3-5c9f-4ae9-a0d2-0f6e2a6bd9b2",
+        "ae43092c-fdcb-43ea-83f9-57f1118e6d23",
+        "45b8aa19-7458-439d-ac2e-12c7438b7c5a",
+        "0529f8a0-d2f1-451e-b620-6ad83d1f848f",
+        "af62fce8-1899-44fc-bfc0-ab88b7c1f459",
+        "c0c3f531-17db-4fb1-9d09-50f2e0c3a80c"
+      ]
+    },
+    {
+      "bonus": false,
+      "description": "12 - Crie uma função para salvar e recuperar o seu desenho atual no localStorage",
+      "enabled": true,
+      "identifier": null,
+      "order": 12,
+      "skill_ids": [
+        "7ff2c260-89c2-4802-9797-ec1b0645d93e",
+        "c9c59370-1e4b-4b1b-8a8d-20da7b7a046a"
+      ]
+    },
+    {
+      "bonus": true,
+      "description": "13 - Crie um input que permita à pessoa usuária preencher um novo tamanho para o quadro de pixels",
+      "enabled": true,
+      "identifier": null,
+      "order": 13,
+      "skill_ids": [
+        "76d994c3-5c9f-4ae9-a0d2-0f6e2a6bd9b2",
+        "ae43092c-fdcb-43ea-83f9-57f1118e6d23",
+        "45b8aa19-7458-439d-ac2e-12c7438b7c5a",
+        "1fb4e5cd-fab5-46e6-b4d6-19576551bc78",
+        "0529f8a0-d2f1-451e-b620-6ad83d1f848f",
+        "af62fce8-1899-44fc-bfc0-ab88b7c1f459",
+        "1fda945a-b901-42dd-8697-ba74e12cbec0",
+        "3188fe8a-e359-4666-8ad5-bf8bcb4d9a7b",
+        "54e289cd-aad3-48de-a7fe-36d53b9b001c"
+      ]
+    },
+    {
+      "bonus": true,
+      "description": "14 - Crie uma função que limite o tamanho mínimo e máximo do quadro de pixels",
+      "enabled": true,
+      "identifier": null,
+      "order": 14,
+      "skill_ids": [
+        "76d994c3-5c9f-4ae9-a0d2-0f6e2a6bd9b2",
+        "ae43092c-fdcb-43ea-83f9-57f1118e6d23",
+        "45b8aa19-7458-439d-ac2e-12c7438b7c5a",
+        "e51df440-90ee-42e8-be83-1c02e2c06489",
+        "e2d499d7-7fdb-4472-835a-5bbe772fb189",
+        "ccd1d063-d32d-49f2-9994-0f2cc09d3a25",
+        "bd9e7ce5-85e1-4240-a69c-9330d91943f9"
+      ]
+    },
+    {
+      "bonus": true,
+      "description": "15 - Crie uma função para manter o tamanho novo do board ao recarregar a página",
+      "enabled": true,
+      "identifier": null,
+      "order": 15,
+      "skill_ids": [
+        "7ff2c260-89c2-4802-9797-ec1b0645d93e",
+        "c9c59370-1e4b-4b1b-8a8d-20da7b7a046a"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paleta de Cores</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body>
+  
+  <h2 id="title">Paleta de Cores</h2>
+  <br>
+  <section id="color-palette">
+    <div id="color-1" class="color selected square small" onclick="selectElement('color-1')"></div>
+    <div id="color-2"class="color square small" onclick="selectElement('color-2')"></div>
+    <div id="color-3"class="color square small"onclick="selectElement('color-3')"></div>
+    <div id="color-4"class="color square small" onclick="selectElement('color-4')"></div>
+  </section>
+
+  <div>
+    <button id="button-random-color" onclick="shuffleColors()">Cores aleatórias</button>
+    
+    <button id="clear-board" onclick="clearColors()">Limpar</button>
+    
+  </div>
+
+  <section>
+  <div id="pixel-board"></div>
+</section>
+  
+</body>
+
+</html>
